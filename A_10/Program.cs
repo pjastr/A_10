@@ -8,7 +8,7 @@ namespace A_10
 {
     class Program
     {
-        static string zamienZnaki(string napis)
+        static string ZamienZnaki(string napis)
         {
             if (napis.Length > 1)
             {
@@ -21,7 +21,7 @@ namespace A_10
         {
             Console.WriteLine("Wprowadź ciąg znaków i naciśnij Enter.");
             string abc = Console.ReadLine();
-            Console.WriteLine(zamienZnaki(abc));
+            Console.WriteLine(ZamienZnaki(abc));
             Console.ReadKey();
         }
     }
